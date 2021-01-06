@@ -39,6 +39,9 @@ Now we can use this data for our Automated ML analysis.
 
 ### Step 5: Model consumption
 
+![Alt text](images/Step5_Consumption.gif "Optional Title")
+
+## Creating, Publishing and Consuming a Pipeline
 
 ## Screen Recording
 The whole project is summarized in the following short video. 
