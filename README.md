@@ -1,6 +1,7 @@
 # Operationalizing Machine Learning
 
 This is the second project from the Machine Learning Engineer with Microsoft Azure Nanodegree program. In this project we will run an Auto ML on Bankmarketing dataset. This dataset can be found here: https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv
+
 This is a sample dataset provided by Microsoft. According to their documentation, the y column indicates if a customer subscribed to a fixed term deposit. The dataset contains information about customers - their job, marital status, education, loan, etc.
 This is a classification problem, where we tried to predict whether a customer is subscribed to a fixed-term deposit, or not. Therefore, later on, when we start an Automated ML experiment, **"y"** will be our target field. 
 
@@ -14,7 +15,9 @@ The whole project can be depicted as following:
 We will go through each step in a higher level of detail, staring with the basics. 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+
+### Step 1: Dataset registration
+![Alt text](images/Step%201.mp4 "Optional Title")
 
 ## Screen Recording
 The whole project is summarized in the following short video. 
