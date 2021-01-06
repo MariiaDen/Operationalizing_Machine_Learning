@@ -33,6 +33,13 @@ Now we can use this data for our Automated ML analysis.
 
 ![Alt text](images/Step3_Deployment.gif "Optional Title")
 
+### Step 4: Logging enablement
+
+![Alt text](images/Step4_Logging.gif "Optional Title")
+
+### Step 5: Model consumption
+
+
 ## Screen Recording
 The whole project is summarized in the following short video. 
 <div align="center">
