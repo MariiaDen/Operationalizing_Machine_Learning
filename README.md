@@ -17,7 +17,8 @@ We will go through each step in a higher level of detail, staring with the basic
 ## Key Steps
 
 ### Step 1: Dataset registration
-![Alt text](images/Step%201.mp4 "Optional Title")
+As the first option, we can register a dataset from URI link. The gif below shows all steps. 
+![Alt text](images/Step1_Option1.gif "Optional Title")
 
 ## Screen Recording
 The whole project is summarized in the following short video. 
