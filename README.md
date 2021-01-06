@@ -18,10 +18,17 @@ We will go through each step in a higher level of detail, staring with the basic
 
 ### Step 1: Dataset registration
 As the first option, we can register a dataset from URI link. The gif below shows all steps. 
+
 ![Alt text](images/Step1_Option1.gif "Optional Title")
 Alternatively, we can upload data from the local csv file. In this case, the file will be stored in an Azure Blob Storage.
+
 ![Alt text](images/Step1_Option2.gif "Optional Title")
 Now we can use this data for our Automated ML analysis.
+
+### Step 2: AutoML experiment
+
+![Alt text](images/Step2_AutoML.gif "Optional Title")
+
 
 ## Screen Recording
 The whole project is summarized in the following short video. 
