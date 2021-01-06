@@ -47,11 +47,15 @@ This will create a new child run, and as soon as it's complete, we will see the 
 ![Alt text](images/Step3_Deployment.gif "Optional Title")
 
 ### Step 4: Logging enablement
+Since we have enabled authentication, the endpoint will be now accessed though a key. For this we need to download a config file and ensure it is stored in the folder with other scripts. Now we move to the Git Bash and log into the Azure. az login will initiate a new window, asking for credentials. After login has succeeded, we add to the logs.py a function to enable application insight, and run the script. 
 
+Upon execurtion we will see that the endpoint configuration has changed - application insights is now enabled. 
 ![Alt text](images/Step4_Logging.gif "Optional Title")
 
 ### Step 5: Model consumption
+Model consumption is now possible. But in order to send requests, we need to know what the request look like. For this we can check swagger. The swagger.json file has to be downloaded and stored together with other swagger files. After executing swagger.sh and serve.py scripts, we can see an example of data request for our endpoint. 
 
+In the endpoint.py script we then put the URI of the endpoint and the key. Alternatively it can be a token. The endpoint.py contains two different data requests. Upon execution, we receive a result for both requests. 
 ![Alt text](images/Step5_Consumption.gif "Optional Title")
 
 ## Creating, Publishing and Consuming a Pipeline
