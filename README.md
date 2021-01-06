@@ -62,7 +62,7 @@ In the endpoint.py script we then put the URI of the endpoint and the key. Alter
 The whole described process can be published as a pipeline by means of Jupyter Notebook. The whole notebook with all executed cells can be found here: https://github.com/MariiaDen/Operationalizing_Machine_Learning/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb
 
 Upon execution we can see that the pipeline has been created. 
-![Alt text](images/Pipeline.png "Optional Title")
+![Alt text](images/Pipeline.PNG "Optional Title")
 
 If we check our experiments, we will see two completed runs. The run 59 has a tag, which lists the pipeline it comes from. We can also see the automl_module details, where we find out that the VotingEnsemble is the best performing model. 
 ![Alt text](images/Pipeline.gif "Optional Title")
