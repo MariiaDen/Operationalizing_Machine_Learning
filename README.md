@@ -7,7 +7,9 @@ This is a classification problem, where we tried to predict whether a customer i
 ## Architectural Diagram
 The whole project can be depicted as following:
 
-<img src="images/1_Project_Architecture.png" height="500" />
+<div align="center">
+  <img src="images/1_Project_Architecture.png" height="500" />
+</div>
 
 We will go through each step in a higher level of detail, staring with the basics. 
 
