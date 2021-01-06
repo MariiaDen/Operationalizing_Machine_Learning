@@ -29,6 +29,9 @@ Now we can use this data for our Automated ML analysis.
 
 ![Alt text](images/Step2_AutoML.gif "Optional Title")
 
+### Step 3: Best model deployment
+
+![Alt text](images/Step3_Deployment.gif "Optional Title")
 
 ## Screen Recording
 The whole project is summarized in the following short video. 
