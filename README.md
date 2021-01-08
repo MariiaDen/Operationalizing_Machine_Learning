@@ -67,6 +67,8 @@ Model consumption is now possible. But in order to send requests, we need to kno
 
 ![Alt text](images/screenshots/swagger-get.PNG "Optional Title")
 
+![Alt text](images/screenshots/swagger-post.png "Optional Title")
+
 In the endpoint.py script we then put the URI of the endpoint and the key. Alternatively it can be a token. The endpoint.py contains two different data requests. Upon execution, we receive a result for both requests. 
 <!--- ![Alt text](images/Step5_Consumption.gif "Optional Title") -->
 ![Alt text](images/screenshots/endpoint.png "Optional Title")
