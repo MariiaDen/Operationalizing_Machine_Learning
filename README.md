@@ -52,6 +52,10 @@ Since we have enabled authentication, the endpoint will be now accessed though a
 Upon execurtion we will see that the endpoint configuration has changed - application insights is now enabled. 
 <!--- ![Alt text](images/Step4_Logging.gif "Optional Title") -->
 
+![Alt text](images/screenshots/swagger-get-post.PNG "Optional Title")
+![Alt text](images/screenshots/swagger-get.PNG "Optional Title")
+
+
 ### Step 5: Model consumption
 Model consumption is now possible. But in order to send requests, we need to know what the request look like. For this we can check swagger. The swagger.json file has to be downloaded and stored together with other swagger files. After executing swagger.sh and serve.py scripts, we can see an example of data request for our endpoint. 
 
@@ -72,3 +76,6 @@ The whole project is summarized in the following short video (please click on th
 <div align="center">
   <a href="https://drive.google.com/file/d/1XU4UQ5OgIuSlD06CzA4EFjF7Y8i11u6r/view?usp=sharing"><img src="https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="IMAGE ALT TEXT"></a>
 </div>
+
+## Future improvements
+As can be seen from the data analysis, the dataset contains a lot of outliers, which strongly influence the model performance. Therefore, data cleaning by removing these outliers could help us to reach better score.
