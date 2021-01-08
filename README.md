@@ -63,9 +63,9 @@ Upon execurtion we will see that the endpoint configuration has changed - applic
 ### Step 5: Model consumption
 Model consumption is now possible. But in order to send requests, we need to know what the request look like. For this we can check swagger. The swagger.json file has to be downloaded and stored together with other swagger files. After executing swagger.sh and serve.py scripts, we can see an example of data request for our endpoint. 
 
-![Alt text](images/screenshots/swagger-get-post.png "Optional Title")
+![Alt text](images/screenshots/swagger-get-post.PNG "Optional Title")
 
-![Alt text](images/screenshots/swagger-get.png "Optional Title")
+![Alt text](images/screenshots/swagger-get.PNG "Optional Title")
 
 In the endpoint.py script we then put the URI of the endpoint and the key. Alternatively it can be a token. The endpoint.py contains two different data requests. Upon execution, we receive a result for both requests. 
 <!--- ![Alt text](images/Step5_Consumption.gif "Optional Title") -->
