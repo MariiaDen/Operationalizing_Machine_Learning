@@ -18,10 +18,10 @@ We will go through each step in a higher level of detail, staring with the basic
 ### Step 1: Dataset registration
 As the first option, we can register a dataset from URI link. The gif below shows all steps. In the configurations we need to provide a link, give a meaningful name and select the column headers. Azure ML studio detects the datatypes of all fields, and as we can see it has determined them correctly.
 
-![Alt text](images/Step1_Option1.gif "Optional Title")
+<!--- ![Alt text](images/Step1_Option1.gif "Optional Title") -->
 Alternatively, we can upload data from the local csv file. In this case, the file will be stored in an Azure Blob Storage. We browse the csv file from local computer, and also select the column headers. 
 
-![Alt text](images/Step1_Option2.gif "Optional Title")
+<!--- ![Alt text](images/Step1_Option2.gif "Optional Title") -->
 Now we can see that the dataset has been added, and we can use this data for our Automated ML analysis.
 
 ### Step 2: AutoML experiment
@@ -44,28 +44,28 @@ After it's created, we need to wait till the run gets finished.
 Now, as we can see, the run is completed. If we click on it, we will see further details. The best model summary tells us that VotingEnsemble is the best performing model with accuracy of 91.988%. If we choose this model, we can deploy it. To deploy a model, we need to define name, select a compute type and enable authentication. For this lab we select Azure Container Instance. 
 
 This will create a new child run, and as soon as it's complete, we will see the deploy status as "Succeeded". This creates an endpoint. 
-![Alt text](images/Step3_Deployment.gif "Optional Title")
+<!--- ![Alt text](images/Step3_Deployment.gif "Optional Title") -->
 
 ### Step 4: Logging enablement
 Since we have enabled authentication, the endpoint will be now accessed though a key. For this we need to download a config file and ensure it is stored in the folder with other scripts. Now we move to the Git Bash and log into the Azure. az login will initiate a new window, asking for credentials. After login has succeeded, we add to the logs.py a function to enable application insight, and run the script. 
 
 Upon execurtion we will see that the endpoint configuration has changed - application insights is now enabled. 
-![Alt text](images/Step4_Logging.gif "Optional Title")
+<!--- ![Alt text](images/Step4_Logging.gif "Optional Title") -->
 
 ### Step 5: Model consumption
 Model consumption is now possible. But in order to send requests, we need to know what the request look like. For this we can check swagger. The swagger.json file has to be downloaded and stored together with other swagger files. After executing swagger.sh and serve.py scripts, we can see an example of data request for our endpoint. 
 
 In the endpoint.py script we then put the URI of the endpoint and the key. Alternatively it can be a token. The endpoint.py contains two different data requests. Upon execution, we receive a result for both requests. 
-![Alt text](images/Step5_Consumption.gif "Optional Title")
+<!--- ![Alt text](images/Step5_Consumption.gif "Optional Title") -->
 
 ## Creating, Publishing and Consuming a Pipeline
 The whole described process can be published as a pipeline by means of Jupyter Notebook. The whole notebook with all executed cells can be found here: https://github.com/MariiaDen/Operationalizing_Machine_Learning/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb
 
 Upon execution we can see that the pipeline has been created. 
-![Alt text](images/Pipeline.PNG "Optional Title")
+<!--- ![Alt text](images/Pipeline.PNG "Optional Title") -->
 
 If we check our experiments, we will see two completed runs. The run 59 has a tag, which lists the pipeline it comes from. We can also see the automl_module details, where we find out that the VotingEnsemble is the best performing model. 
-![Alt text](images/Pipeline.gif "Optional Title")
+<!--- ![Alt text](images/Pipeline.gif "Optional Title") -->
 
 ## Screen Recording
 The whole project is summarized in the following short video (please click on the image below). 
