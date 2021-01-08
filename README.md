@@ -33,7 +33,7 @@ For the compute cluster we leave the virtual machine type as it is and choose a 
 
 By clicking "Next" we move to the next menu, where we have to give a compute name and minimum number of nodes. For this lab it's set up to 1. 
 This way we are moving to the last step for our Auto ML configurations, which is selecting task type and settings. Here we select the Classification task and change the additional configuration settings. We set the training job time to one hour, and maximum concurrent iterations to five. By clicking on "Finish" we create a new Auto ML run.
-![Alt text](images/Step2_AutoML.gif "Optional Title")
+<!--- ![Alt text](images/Step2_AutoML.gif "Optional Title") -->
 
 After it's created, we need to wait till the run gets finished. 
 <div align="center">
