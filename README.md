@@ -45,7 +45,7 @@ After it's created, we need to wait till the run gets finished.
 
 ### Step 3: Best model deployment
 Now, as we can see, the run is completed. If we click on it, we will see further details. The best model summary tells us that VotingEnsemble is the best performing model with accuracy of 91.988%. If we choose this model, we can deploy it. To deploy a model, we need to define name, select a compute type and enable authentication. For this lab we select Azure Container Instance. 
-![Alt text](images/screenshots/experiment-complete.png "Optional Title")
+![Alt text](images/screenshots/best-model.png "Optional Title")
 
 This will create a new child run, and as soon as it's complete, we will see the deploy status as "Succeeded". This creates an endpoint. 
 <!--- ![Alt text](images/Step3_Deployment.gif "Optional Title") -->
