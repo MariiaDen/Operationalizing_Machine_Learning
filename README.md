@@ -84,6 +84,8 @@ Upon execution we can see that the pipeline has been created.
 
 If we check our experiments, we will see two completed runs. The run 59 has a tag, which lists the pipeline it comes from. We can also see the automl_module details, where we find out that the VotingEnsemble is the best performing model. 
 <!--- ![Alt text](images/Pipeline.gif "Optional Title") -->
+![Alt text](images/Pipeline.PNG "Optional Title")
+
 ![Alt text](images/screenshots/pipeline.png "Optional Title")
 
 ## Screen Recording
