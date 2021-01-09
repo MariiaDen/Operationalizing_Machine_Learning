@@ -87,7 +87,7 @@ If we check our experiments, we will see two completed runs. The run 59 has a ta
 ![Alt text](images/Pipeline.PNG "Optional Title")
 
 If you open a Jupyter Notebook, you will be able to see more run details from widget.
-![Alt text](images/run-details.PNG "Optional Title")
+![Alt text](images/screenshots/run-details.PNG "Optional Title")
 
 ![Alt text](images/screenshots/pipeline.png "Optional Title")
 
