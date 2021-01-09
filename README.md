@@ -82,14 +82,17 @@ Upon execution we can see that the pipeline has been created.
 <!--- ![Alt text](images/Pipeline.PNG "Optional Title") -->
 ![Alt text](images/screenshots/graph.png "Optional Title")
 
+If you open a Jupyter Notebook, you will be able to see more run details from widget.
+![Alt text](images/screenshots/run-details.PNG "Optional Title")
+
+![Alt text](images/screenshots/run-details-2.PNG "Optional Title")
+
 If we check our experiments, we will see two completed runs. The run 59 has a tag, which lists the pipeline it comes from. We can also see the automl_module details, where we find out that the VotingEnsemble is the best performing model. 
 <!--- ![Alt text](images/Pipeline.gif "Optional Title") -->
 ![Alt text](images/Pipeline.PNG "Optional Title")
 
-If you open a Jupyter Notebook, you will be able to see more run details from widget.
-![Alt text](images/screenshots/run-details.PNG "Optional Title")
-
 ![Alt text](images/screenshots/pipeline.png "Optional Title")
+
 
 ## Screen Recording
 The whole project is summarized in the following short video (please click on the image below). 
