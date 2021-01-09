@@ -112,8 +112,11 @@ After recreating the pipeline experiment part (therefore it is called Run 1), th
 
 ## Screen Recording
 The whole project is summarized in the following short video (please click on the image below). 
-<div align="center">
+<!--- <div align="center">
   <a href="https://drive.google.com/file/d/1XU4UQ5OgIuSlD06CzA4EFjF7Y8i11u6r/view?usp=sharing"><img src="https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="IMAGE ALT TEXT"></a>
+</div> -->
+<div align="center">
+  <a href="https://drive.google.com/file/d/1x7uK9_bhIr05p1fra4sQKDuwACZ-caPL/view?usp=sharing"><img src="https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="IMAGE ALT TEXT"></a>
 </div>
 
 ## Future improvements
