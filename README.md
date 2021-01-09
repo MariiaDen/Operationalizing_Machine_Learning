@@ -86,6 +86,9 @@ If we check our experiments, we will see two completed runs. The run 59 has a ta
 <!--- ![Alt text](images/Pipeline.gif "Optional Title") -->
 ![Alt text](images/Pipeline.PNG "Optional Title")
 
+If you open a Jupyter Notebook, you will be able to see more run details from widget.
+![Alt text](images/run-details.PNG "Optional Title")
+
 ![Alt text](images/screenshots/pipeline.png "Optional Title")
 
 ## Screen Recording
@@ -96,3 +99,7 @@ The whole project is summarized in the following short video (please click on th
 
 ## Future improvements
 As can be seen from the data analysis, the dataset contains a lot of outliers, which strongly influence the model performance. Therefore, data cleaning by removing these outliers could help us to reach better score.
+![Alt text](images/screenshots/Improvement-1.PNG "Optional Title")
+
+![Alt text](images/screenshots/Improvement-2.PNG "Optional Title")
+
