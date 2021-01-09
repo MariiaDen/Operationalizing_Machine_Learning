@@ -93,6 +93,22 @@ If we check our experiments, we will see two completed runs. The run 59 has a ta
 
 ![Alt text](images/screenshots/pipeline.png "Optional Title")
 
+After recreating the pipeline experiment part (therefore it is called Run 1), the following pipeline screenshots were taken: 
+**REST endpoint active**
+![Alt text](images/screenshots/publish-and-run-from-endpoint.PNG "Optional Title")
+
+**Pipeline runs**
+![Alt text](images/screenshots/pipeline-created-2.PNG "Optional Title")
+
+**Pipeline run overview**
+![Alt text](images/screenshots/pipeline-http.PNG "Optional Title")
+![Alt text](images/screenshots/pipeline-endpoint-2.PNG "Optional Title")
+
+**Published pipeline overview**
+![Alt text](images/screenshots/pipeline-rest.PNG "Optional Title")
+
+**Pipeline endpoints**
+![Alt text](images/screenshots/pipeline-endpoint.PNG "Optional Title")
 
 ## Screen Recording
 The whole project is summarized in the following short video (please click on the image below). 
